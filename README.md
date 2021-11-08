@@ -2,8 +2,10 @@
 
 ```
 git clone
-python -m venv venv
-pip install ir requirements.txt
+python -m venv ./ venv
+rm -rf .git
+source venv/Scripts/activate
+pip install -r requirements.txt
 ```
 
 ```javascript
